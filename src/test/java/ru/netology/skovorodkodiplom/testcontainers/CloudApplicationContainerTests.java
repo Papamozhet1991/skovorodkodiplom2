@@ -22,7 +22,7 @@ import java.util.Objects;
 @Testcontainers
 @SpringBootTest(classes = GalaxyCloudApplication.class,
         webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class GalaxyCloudApplicationContainerTests {
+public class CloudApplicationContainerTests {
 
     private static final int PORT = 8080;
     private static final String LOGIN = "testContainers@test.com";
